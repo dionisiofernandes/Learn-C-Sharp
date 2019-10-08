@@ -16,4 +16,17 @@ bool					- Verdadeiro/Falso
  
  // existem muitos mais, estes são os mais comuns.
 
-====================| |====================
+====================| Metodos string |====================
+
+Console.WriteLine(stri.ToUpper) - converte para capital letters
+.ToLower - Converte para lower case
+.Contains("teste") - verifica se contem "teste"
+[0]
+
+
+
+
+
+====================|  |====================
+====================|  |====================
+====================|  |====================
