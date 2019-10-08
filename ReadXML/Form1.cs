@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Xml; // Adicionar isto aqui!
+using System.Xml; // Adicionar isto aqui! teste a ver se sync
 
 namespace ReadXML
 {
