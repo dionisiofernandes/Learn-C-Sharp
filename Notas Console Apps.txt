@@ -4,3 +4,16 @@ Tuturials    - https://www.youtube.com/watch?v=GhQdlIFylQ8
 
 Cheat Sheets - https://begincodingnow.com/wp-content/uploads/2019/02/CSharpCheatSheetV2.2.pdf
              - https://github.com/jwill9999/C-Sharp-Cheatsheet
+
+
+====================| Datatypes |====================
+
+String					- "uma string"
+char					- caracter unico
+int						- numero inteiro
+float, double, decimal	- numeros decimais do menos preciso pra o mais
+bool					- Verdadeiro/Falso 
+ 
+ // existem muitos mais, estes são os mais comuns.
+
+====================| |====================
