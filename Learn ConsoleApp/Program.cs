@@ -14,6 +14,7 @@ namespace Learn_ConsoleApp
             string disse = Console.ReadLine();
             Console.WriteLine("Ele Disse: " + disse+ " Caralhes");
             Console.ReadLine();
+            //apenas para ver se sync 
 
         }
     }
