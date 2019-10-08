@@ -30,7 +30,8 @@ namespace Learn_ConsoleApp
             Console.WriteLine(5 / 2); //Divisão
             Console.WriteLine(5 % 2); // Modulo 
 
-            Console.WriteLine(5 / 2); // Embora decimal, vai devolver uma int.
+            Console.WriteLine(5 / 2); // Embora decimal, vai devolver uma int qunado são 2 ints
+            Console.WriteLine(5 / 2.0); // vai devolver uma decimal qunado são pelo menos uma decimal
 
             int num = 6; // define a int =6
             num++;  // incrementa a int em +1 
@@ -44,15 +45,46 @@ namespace Learn_ConsoleApp
             Console.WriteLine(Math.Max(4, 90)); // devolve o valor maior 
             Console.WriteLine(Math.Min(4, 90)); // devolve o valor minimo
 
+            // Converter Strings para numeros
+            Console.WriteLine("45"+"23"); // Apenas vai contatenar as 2 strings.
 
+            int num2 = Convert.ToInt32("45"); // coverte a string "45" para o num 45
+            Console.WriteLine(num2 + 5);    // Adiciona 5 ao valor de num2
+            
+            Console.Write("Enter your number: ");
+            decimal num01 = Convert.ToDecimal(Console.ReadLine());
+            Console.Write("Enter another number: ");
+            decimal num02 = Convert.ToDecimal(Console.ReadLine());
+            Console.WriteLine(num01 + num02);
 
+            //Arrays 
+            int[] luckyNumbers = { 4, 8, 10, 15, 18, 22 }; //decralrar e atribuir valores ao arrays
+            Console.WriteLine(luckyNumbers[0]); // devolve o valor donindex 0 no array.
+            luckyNumbers[2] = 50; // atualiza o valor do index 2 (10 no caso acima) para 50
 
+            string[] friends = new string[5]; // cria uma array vazio que consegue comportar 5 valores
+            friends[0] = "Jim"; // Assigna a string no valor do index 0
+            friends[1] = "Tim"; // Assigna a string no valor do index 1
+            friends[2] = "Pim"; // Assigna a string no valor do index 2
+            friends[3] = "Lim"; // Assigna a string no valor do index 3
+            friends[4] = "Xim"; // Assigna a string no valor do index 4
 
+            //Metodos
+
+            SayHi("Mike"); // Chama o metodo e executa-o - A string é passada para o metodo. - Chama-se caller
 
 
             //Para pausar e ver os resultados
             Console.ReadLine();
 
         }
+
+        static void SayHi(string name)
+        {
+
+            Console.WriteLine("Hello " +name);
+
+        }
+
     }
 }
