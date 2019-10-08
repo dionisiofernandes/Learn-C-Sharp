@@ -12,7 +12,7 @@ namespace Learn_ConsoleApp
         {
             Console.WriteLine("O que disse ele?");
             string disse = Console.ReadLine();
-            Console.WriteLine("Ele Disse: " + disse+ " Caralhes");
+            Console.WriteLine("Ele Disse: " + disse+ " ... e foi só isto!");
             Console.ReadLine();
             //apenas para ver se sync 
 
