@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learn WindowsFormsApp", "Le
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notas", "Notas", "{56B8342B-84F8-4C3F-A976-550FA30024A5}"
 	ProjectSection(SolutionItems) = preProject
-		TextFile1.txt = TextFile1.txt
+		Learn ConsoleApp\Notas\Notas Console App.txt = Learn ConsoleApp\Notas\Notas Console App.txt
 	EndProjectSection
 EndProject
 Global
