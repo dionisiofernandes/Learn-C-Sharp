@@ -13,9 +13,7 @@ namespace If_Statements
         static void Main(string[] args)
         {
            Console.WriteLine( GetMax(20,10,40));
-            
             Console.ReadLine();
-
         }
 
         static int GetMax(int num1, int num2, int num3)
@@ -24,7 +22,6 @@ namespace If_Statements
             if (num1 >= num2 && num1 >= num3)
             {
                 result = num1;
-                
             }
             else if (num2 >= num1 && num2 >= num3)
             {
@@ -33,8 +30,7 @@ namespace If_Statements
             else
             {
                 result = num3;
-            }
-                                 
+            }            
             return result;
 
         
