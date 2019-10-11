@@ -14,6 +14,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notas", "Notas", "{56B8342B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadXML", "ReadXML\ReadXML.csproj", "{919037D4-69DF-4345-A6CB-E1A205BDD665}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "If Statements", "If Statements\If Statements.csproj", "{3A6125F7-7397-42BC-B3A2-FD7FC5F518C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Learn Console App", "Learn Console App", "{895D67B8-9976-4B11-A94F-39ACE136A6B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,9 +36,17 @@ Global
 		{919037D4-69DF-4345-A6CB-E1A205BDD665}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{919037D4-69DF-4345-A6CB-E1A205BDD665}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{919037D4-69DF-4345-A6CB-E1A205BDD665}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A6125F7-7397-42BC-B3A2-FD7FC5F518C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A6125F7-7397-42BC-B3A2-FD7FC5F518C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A6125F7-7397-42BC-B3A2-FD7FC5F518C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A6125F7-7397-42BC-B3A2-FD7FC5F518C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{58B03FD6-AC5C-4470-8BAA-5BF73AF52FAA} = {895D67B8-9976-4B11-A94F-39ACE136A6B5}
+		{3A6125F7-7397-42BC-B3A2-FD7FC5F518C5} = {895D67B8-9976-4B11-A94F-39ACE136A6B5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {287021F2-71F0-4684-B551-C703049E5684}
