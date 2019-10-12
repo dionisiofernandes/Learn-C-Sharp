@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4 Switch Statement", "4 Swi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5 While Loops", "5 While Loops\5 While Loops.csproj", "{13EE1761-72B2-4462-A678-3A8D1E7863CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6 Building a Guessing Game", "6 Building a Guessing Game\6 Building a Guessing Game.csproj", "{306553E8-027C-439C-BC0D-A971794D3511}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{13EE1761-72B2-4462-A678-3A8D1E7863CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13EE1761-72B2-4462-A678-3A8D1E7863CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13EE1761-72B2-4462-A678-3A8D1E7863CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{306553E8-027C-439C-BC0D-A971794D3511}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{306553E8-027C-439C-BC0D-A971794D3511}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{306553E8-027C-439C-BC0D-A971794D3511}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{306553E8-027C-439C-BC0D-A971794D3511}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
