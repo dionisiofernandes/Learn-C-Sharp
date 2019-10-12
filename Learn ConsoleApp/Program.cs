@@ -73,12 +73,6 @@ namespace Learn_ConsoleApp
 
             SayHi("Mike"); // Chama o metodo e executa-o - A string é passada para o metodo. - Chama-se caller
 
-            //IF statements
-
-            bool isMale = true;
-            bool isTall = true;
-
-            if (isMale && !isTall) // %% - Operador And. // || - Operador Or. 
 
             {
                 Console.WriteLine("You are Male! and Tall");
