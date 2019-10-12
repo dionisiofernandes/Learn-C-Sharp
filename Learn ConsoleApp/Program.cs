@@ -74,15 +74,7 @@ namespace Learn_ConsoleApp
             SayHi("Mike"); // Chama o metodo e executa-o - A string é passada para o metodo. - Chama-se caller
 
 
-            {
-                Console.WriteLine("You are Male! and Tall");
-            } else
 
-            {
-                Console.WriteLine("You are not Male or Tall or Both");
-            }
-
-            //Is statements Comparações
             // No projeto Learn ConsoleApp
 
             //Para pausar e ver os resultados
