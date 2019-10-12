@@ -12,16 +12,16 @@ namespace Learn_ConsoleApp
         {
             Console.WriteLine("O que disse ele?");
             string disse = Console.ReadLine(); // define a strin pelo prompt da consola
-            Console.WriteLine("Ele Disse: " + disse+ " ... e foi só isto!");
-            
-            
+            Console.WriteLine("Ele Disse: " + disse + " ... e foi só isto!");
+
+
             //Trabalhando com Strings
             Console.WriteLine(disse.ToUpper()); //converte para capital
             Console.WriteLine(disse.ToLower()); //converte para lowercase
             Console.WriteLine(disse.Contains("coisas")); // Valida se coisas está contido na variavel
             Console.WriteLine(disse[0]); //Devolve o primeiro caracter contdo na String (index)
             Console.WriteLine(disse.IndexOf("nada")); // Devolve a posição de "nada" dentro da string - Caso =-1 significa que nao está presente.
-            Console.WriteLine(disse.Substring(5,4)); // devolde os 4 caracteres iniciando na 4ª posição da string
+            Console.WriteLine(disse.Substring(5, 4)); // devolde os 4 caracteres iniciando na 4ª posição da string
 
             //Trabalhando com Numeros
             Console.WriteLine(2 + 1); //Adição
@@ -46,11 +46,11 @@ namespace Learn_ConsoleApp
             Console.WriteLine(Math.Min(4, 90)); // devolve o valor minimo
 
             // Converter Strings para numeros
-            Console.WriteLine("45"+"23"); // Apenas vai contatenar as 2 strings.
+            Console.WriteLine("45" + "23"); // Apenas vai contatenar as 2 strings.
 
             int num2 = Convert.ToInt32("45"); // coverte a string "45" para o num 45
             Console.WriteLine(num2 + 5);    // Adiciona 5 ao valor de num2
-            
+
             Console.Write("Enter your number: ");
             decimal num01 = Convert.ToDecimal(Console.ReadLine());
             Console.Write("Enter another number: ");
@@ -87,7 +87,9 @@ namespace Learn_ConsoleApp
             {
                 Console.WriteLine("You are not Male or Tall or Both");
             }
-            
+
+            //Is statements Comparações
+            // No projeto Learn ConsoleApp
 
             //Para pausar e ver os resultados
             Console.ReadLine();
@@ -97,9 +99,11 @@ namespace Learn_ConsoleApp
         static void SayHi(string name)
         {
 
-            Console.WriteLine("Hello " +name);
+            Console.WriteLine("Hello " + name);
 
         }
 
-    }
+ 
+
+}
 }

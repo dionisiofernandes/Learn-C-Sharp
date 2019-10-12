@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{58B03FD6-AC5C-4470-8BAA-5BF73AF52FAA}</ProjectGuid>
+    <ProjectGuid>{3A6125F7-7397-42BC-B3A2-FD7FC5F518C5}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Learn_ConsoleApp</RootNamespace>
-    <AssemblyName>Learn ConsoleApp</AssemblyName>
+    <RootNamespace>If_Statements</RootNamespace>
+    <AssemblyName>If Statements</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -47,8 +47,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include=".editorconfig" />
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
