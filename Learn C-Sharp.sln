@@ -3,27 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29025.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1 Learn ConsoleApp", "Learn ConsoleApp\1 Learn ConsoleApp.csproj", "{58B03FD6-AC5C-4470-8BAA-5BF73AF52FAA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 Learn ConsoleApp", "Learn ConsoleApp\01 Learn ConsoleApp.csproj", "{58B03FD6-AC5C-4470-8BAA-5BF73AF52FAA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learn WindowsFormsApp", "Learn WindowsFormsApp\Learn WindowsFormsApp.csproj", "{81827E2B-845F-4D81-8E24-AE5E24862784}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "99 ReadXML", "ReadXML\99 ReadXML.csproj", "{919037D4-69DF-4345-A6CB-E1A205BDD665}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2 If Statements", "If Statements\2 If Statements.csproj", "{3A6125F7-7397-42BC-B3A2-FD7FC5F518C5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 If Statements", "If Statements\02 If Statements.csproj", "{3A6125F7-7397-42BC-B3A2-FD7FC5F518C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3 Building a better calculator", "Building a better calculator\3 Building a better calculator.csproj", "{BFBA13E7-252F-4A92-8AD7-9708A8EADAB3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 Building a better calculator", "Building a better calculator\03 Building a better calculator.csproj", "{BFBA13E7-252F-4A92-8AD7-9708A8EADAB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4 Switch Statement", "4 Switch Statement\4 Switch Statement.csproj", "{7104273E-6A4C-4BB1-A373-B4F6E1C2183C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 Switch Statement", "4 Switch Statement\04 Switch Statement.csproj", "{7104273E-6A4C-4BB1-A373-B4F6E1C2183C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5 While Loops", "5 While Loops\5 While Loops.csproj", "{13EE1761-72B2-4462-A678-3A8D1E7863CE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 While Loops", "5 While Loops\05 While Loops.csproj", "{13EE1761-72B2-4462-A678-3A8D1E7863CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6 Building a Guessing Game", "6 Building a Guessing Game\6 Building a Guessing Game.csproj", "{306553E8-027C-439C-BC0D-A971794D3511}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06 Building a Guessing Game", "6 Building a Guessing Game\06 Building a Guessing Game.csproj", "{306553E8-027C-439C-BC0D-A971794D3511}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7 For Loops", "7 For Loops\7 For Loops.csproj", "{64D7F8C9-FBDD-42A8-8E87-79ED69CDBD25}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07 For Loops", "7 For Loops\07 For Loops.csproj", "{64D7F8C9-FBDD-42A8-8E87-79ED69CDBD25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8 Building an Exponent Method", "8 Building an Exponent Method\8 Building an Exponent Method.csproj", "{071FA96B-B835-4790-A941-6D619156497C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08 Building an Exponent Method", "8 Building an Exponent Method\08 Building an Exponent Method.csproj", "{071FA96B-B835-4790-A941-6D619156497C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9 2d Arrays", "2d Arrays\9 2d Arrays.csproj", "{7039D100-C7BC-4819-B9E4-78551078B945}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09 2d Arrays", "2d Arrays\09 2d Arrays.csproj", "{7039D100-C7BC-4819-B9E4-78551078B945}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10 - Coments", "10 - Coments\10 - Coments.csproj", "{21C6E44E-F723-4C64-AFF9-87FCBDA22163}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11 Exception Hanling", "11 Exception Hanling\11 Exception Hanling.csproj", "{0303C7B1-6DCF-48F8-B8B8-CDF4C7416BB9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +79,14 @@ Global
 		{7039D100-C7BC-4819-B9E4-78551078B945}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7039D100-C7BC-4819-B9E4-78551078B945}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7039D100-C7BC-4819-B9E4-78551078B945}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21C6E44E-F723-4C64-AFF9-87FCBDA22163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21C6E44E-F723-4C64-AFF9-87FCBDA22163}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21C6E44E-F723-4C64-AFF9-87FCBDA22163}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21C6E44E-F723-4C64-AFF9-87FCBDA22163}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0303C7B1-6DCF-48F8-B8B8-CDF4C7416BB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0303C7B1-6DCF-48F8-B8B8-CDF4C7416BB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0303C7B1-6DCF-48F8-B8B8-CDF4C7416BB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0303C7B1-6DCF-48F8-B8B8-CDF4C7416BB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
