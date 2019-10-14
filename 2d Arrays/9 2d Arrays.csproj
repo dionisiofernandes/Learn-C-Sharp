@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{58B03FD6-AC5C-4470-8BAA-5BF73AF52FAA}</ProjectGuid>
+    <ProjectGuid>{7039D100-C7BC-4819-B9E4-78551078B945}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Learn_ConsoleApp</RootNamespace>
-    <AssemblyName>Learn ConsoleApp</AssemblyName>
+    <RootNamespace>_2d_Arrays</RootNamespace>
+    <AssemblyName>2d Arrays</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -49,6 +49,5 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{58B03FD6-AC5C-4470-8BAA-5BF73AF52FAA}</ProjectGuid>
+    <ProjectGuid>{071FA96B-B835-4790-A941-6D619156497C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Learn_ConsoleApp</RootNamespace>
-    <AssemblyName>Learn ConsoleApp</AssemblyName>
+    <RootNamespace>_8_Building_an_Exponent_Method</RootNamespace>
+    <AssemblyName>8 Building an Exponent Method</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -49,6 +49,5 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
