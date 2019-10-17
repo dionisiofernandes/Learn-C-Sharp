@@ -37,6 +37,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14 Object Methods", "14 Obj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15 Getters and Setters", "15 Getters and Setters\15 Getters and Setters.csproj", "{C0D4DE5C-B6D1-4C22-B0C8-9029817485B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16 Static Class Attributes", "16 Static Class Attributes\16 Static Class Attributes.csproj", "{6A3E7F28-F001-4618-B7DD-465B88C178A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17 Static Methods and Classes", "17 Static Methods and Classes\17 Static Methods and Classes.csproj", "{F2319A3E-BD8D-41D3-8A19-4A9D1E20554E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +115,14 @@ Global
 		{C0D4DE5C-B6D1-4C22-B0C8-9029817485B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0D4DE5C-B6D1-4C22-B0C8-9029817485B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0D4DE5C-B6D1-4C22-B0C8-9029817485B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A3E7F28-F001-4618-B7DD-465B88C178A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A3E7F28-F001-4618-B7DD-465B88C178A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A3E7F28-F001-4618-B7DD-465B88C178A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A3E7F28-F001-4618-B7DD-465B88C178A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2319A3E-BD8D-41D3-8A19-4A9D1E20554E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2319A3E-BD8D-41D3-8A19-4A9D1E20554E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2319A3E-BD8D-41D3-8A19-4A9D1E20554E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2319A3E-BD8D-41D3-8A19-4A9D1E20554E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
